@@ -1,0 +1,46 @@
+<% var itemCounter = 0; %>
+
+
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Areas of Interest</title>
+        <link rel="stylesheet" type="text/css" href="../css/typography.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/layout.css"/>
+
+    </head>
+    <body>
+        <h1>Areas of Interest</h1>
+
+
+
+
+                <% for (var topLevelProgram in programs) { %>
+                    <div class="collection">
+                        <h2><%= topLevelProgram %></h2>
+                        <% programs[topLevelProgram].forEach(function(subjectArea) { %>
+                            <% if (Object.prototype.toString.call(subjectArea) !== '[object Object]') { %>
+                                <ul>
+                                    <li><a href="#"><%= subjectArea %></a></li>
+                                </ul>
+                            <% } else { %>
+                                <% for (var subjectAreaName in subjectArea) { %>
+                                    <div class="toggle item<%= ++itemCounter %>"><a href="#"><%= subjectAreaName %></a></div>
+                                    <ul class="toggleContent item<%= itemCounter %>">
+                                        <% subjectArea[subjectAreaName].forEach(function(areaOfStudy) { %>
+                                            <li><a href="#"><%= areaOfStudy %></a></li>
+                                        <% }) %>
+                                    </ul>
+                                <% } %>
+                            <% } %>
+                        <% }) %>
+                    </div>
+                <% } %>
+    </body>
+
+    <script type="text/javascript" src="../js/jquery-min.js"></script>
+    <script src="../js/toggle-content.js"></script>
+
+</html>

@@ -1,0 +1,168 @@
+/* breadcrumb */
+
+div.breadcrumb {
+	font-size: 9px;
+	background-color: transparent;
+	color: #ddd;
+	margin-left: -5px;
+}
+
+div.breadcrumb a {
+	color: #999;
+}
+
+/* typography */
+
+h4 {
+	font-size: 11px;
+	line-height: 14px;
+	color: #000;
+	margin-bottom: 4px;
+	text-transform: uppercase;
+}
+
+/* unordered lists */
+
+div.main_content ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+div.main_content ul li {
+    padding: 4px 0px 0px 11px;
+    background: transparent url(/content/dam/sfu/images/common/bullet_red.gif) 0px 8px no-repeat;
+}
+
+div.main_content ul li ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-bottom: 6px;
+}
+
+div.nestedList ul li, div.main_content ul li ul li {
+    padding-left: 6px;
+    background: transparent url(/content/dam/sfu/images/common/bullet_blue.gif) 0px 9px no-repeat;
+}
+
+div.nestedList {
+	margin-left: 10px;
+}
+
+div.main_content div.tabNav ul li {
+	background-image: none;
+	padding: 0px;
+}
+
+/* ordered lists */
+
+ol li {
+	padding-bottom: 8px;
+}
+
+/* toggles */
+
+div.toggle {
+	background-image: none;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	clear: left;
+}
+
+div.toggle:hover {
+	text-decoration: none;
+}
+
+div.toggle h3 {
+	background: transparent url(/content/dam/sfu/images/icons/plus_16x16.png) 4px 6px no-repeat;
+	padding: 5px;
+	padding-left: 24px;
+	border: 1px solid #ccc;
+}
+
+div.toggle h3:hover {
+	background-color: #eee;
+}
+
+div.toggleContent {
+	margin-top: 8px;
+    padding-bottom: 12px;
+    padding-top: 0px;
+}
+
+/* floating lists */
+
+div.floatList2 ul {
+	width: 275px;
+	float: left;
+	margin-right: 10px;
+}
+
+div.floatList2 ul:last-child {
+	margin-right: 0px;
+}
+
+div.floatList3 ul {
+	width: 245px;
+	float: left;
+	margin-right: 10px;
+}
+
+div.floatList3 ul:last-child {
+	margin-right: 0px;
+}
+
+div.floatList4 ul {
+	width: 145px;
+	float: left;
+	margin-right: 10px;
+}
+
+div.floatList4 {
+	float: left;
+}
+
+div.floatList3 {
+	float: left;
+}
+
+div.floatList2 {
+	float: left;
+}
+
+div.floatList4 ul:last-child {
+	margin-right: 0px;
+}
+
+/* inherited main content */
+
+div.aboveMainContent {
+	width: 767px;
+	min-height: 40px;
+}
+
+div.aboveMainContent div.text {
+	float: left;
+	width: 560px;
+}
+
+div.aboveMainContent div.searchwidget {
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+
+div.aboveMainContent h1 {
+	color: #000;
+}
+
+/* tabnav */
+
+div.tabContent {
+	padding-bottom: 12px;
+}
+
+div.ruled {
+	border-top: 5px solid #ddd;
+}

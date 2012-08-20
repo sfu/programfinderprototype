@@ -1,0 +1,1126 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Body>
+      <ns1:get_af_programsResponse soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:ns1="http://sfu.webservices.scripts">
+         <get_af_programsReturn xsi:type="ns2:Document" xmlns:ns2="http://xml.apache.org/xml-soap">
+            <programs>
+               <program>
+                  <AWARD_TYPE_TITLE>Bachelor of Arts</AWARD_TYPE_TITLE>
+                  <CREDENTIAL_TITLE>Bachelor of Arts</CREDENTIAL_TITLE>
+                  <DEPARTMENT_TITLE>Cognitive Science Program</DEPARTMENT_TITLE>
+                  <LEAD_FACULTY>Jen Mackintosh</LEAD_FACULTY>
+                  <PROGRAMS_ID>218</PROGRAMS_ID>
+                  <PROGRAM_CODES_ID/>
+                  <PROGRAM_STATUS_TITLE>Active</PROGRAM_STATUS_TITLE>
+                  <REQUIRE_NOTE/>
+                  <SUBJECT_TITLE/>
+                  <TITLE>Cognitive Science Major Program</TITLE>
+                  <TOP_CODE/>
+                  <programDivisions>
+                     <programDivision>
+                        <FACULTY>Faculty of Arts and Social Sciences</FACULTY>
+                     </programDivision>
+                  </programDivisions>
+                  <programdepartment>
+                     <department>Cognitive Science Program</department>
+                  </programdepartment>
+                  <programRequirements>
+                     <programRequirement>
+                        <programRequirementId>1913</programRequirementId>
+                        <COURSE_OPTION_NOTES>Students complete 120 units which include at least</COURSE_OPTION_NOTES>
+                        <SEQUENCE_DESCRIPTION>Bachelor of Arts Requirements</SEQUENCE_DESCRIPTION>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>27684</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>65 units in Faculty of Arts and Social Sciences subjects (includes major/minor units if in this faculty)</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>27685</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>45 upper division units (includes major/minor units)</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>27686</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>writing, quantitative and breadth requirements as described below</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1914</programRequirementId>
+                        <COURSE_OPTION_NOTES>Program Requirements</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6781</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Within the minimum 120 units needed for the BA, students complete the required courses in the sections below.</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1915</programRequirementId>
+                        <COURSE_OPTION_NOTES>Introductory Courses</COURSE_OPTION_NOTES>
+                        <COURSE_OPTION_FOOTER>and the following requirements.</COURSE_OPTION_FOOTER>
+                        <SEQUENCE_DESCRIPTION>Lower Division Requirements</SEQUENCE_DESCRIPTION>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6782</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students complete a minimum of 18 units including</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6783</programRequirementsSetsId>
+                              <COURSES_ID>900</COURSES_ID>
+                              <COURSE>100 COGS</COURSE>
+                              <COURSE_TITLE>Exploring the Mind</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1916</programRequirementId>
+                        <COURSE_OPTION_NOTES>Computing Science</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6784</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students complete either</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6785</programRequirementsSetsId>
+                              <COURSES_ID>740</COURSES_ID>
+                              <COURSE>126 CMPT</COURSE>
+                              <COURSE_TITLE>Introduction to Computing Science and Programming</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6786</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>or both of</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6787</programRequirementsSetsId>
+                              <COURSES_ID>738</COURSES_ID>
+                              <COURSE>120 CMPT</COURSE>
+                              <COURSE_TITLE>Introduction to Computing Science and Programming I</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6788</programRequirementsSetsId>
+                              <COURSES_ID>739</COURSES_ID>
+                              <COURSE>125 CMPT</COURSE>
+                              <COURSE_TITLE>Introduction to Computing Science and Programming II</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6789</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Additionally students who choose intermediate level computing science, must complete</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6790</programRequirementsSetsId>
+                              <COURSES_ID>3212</COURSES_ID>
+                              <COURSE>101 MACM</COURSE>
+                              <COURSE_TITLE>Discrete Mathematics I</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1917</programRequirementId>
+                        <COURSE_OPTION_NOTES>Linguistics</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6791</programRequirementsSetsId>
+                              <COURSES_ID>3128</COURSES_ID>
+                              <COURSE>220 LING</COURSE>
+                              <COURSE_TITLE>Introduction to Linguistics</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1918</programRequirementId>
+                        <COURSE_OPTION_NOTES>Philosophy</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6792</programRequirementsSetsId>
+                              <COURSES_ID>3556</COURSES_ID>
+                              <COURSE>100W PHIL</COURSE>
+                              <COURSE_TITLE>Knowledge and Reality</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1919</programRequirementId>
+                        <COURSE_OPTION_NOTES>Psychology</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6793</programRequirementsSetsId>
+                              <COURSES_ID>3848</COURSES_ID>
+                              <COURSE>100 PSYC</COURSE>
+                              <COURSE_TITLE>Introduction to Psychology I</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6794</programRequirementsSetsId>
+                              <COURSES_ID>3849</COURSES_ID>
+                              <COURSE>102 PSYC</COURSE>
+                              <COURSE_TITLE>Introduction to Psychology II</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6795</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Intermediate Courses</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6796</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students complete a minimum of 18 units including</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6797</programRequirementsSetsId>
+                              <COURSES_ID>901</COURSES_ID>
+                              <COURSE>200 COGS</COURSE>
+                              <COURSE_TITLE>Foundations in Cognitive Science</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6798</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>and the requirements for at least three of the four disciplines shown below.</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1920</programRequirementId>
+                        <COURSE_OPTION_NOTES>Computing Science</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6799</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students who choose this discipline will complete</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6800</programRequirementsSetsId>
+                              <COURSES_ID>747</COURSES_ID>
+                              <COURSE>225 CMPT</COURSE>
+                              <COURSE_TITLE>Data Structures and Programming</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1921</programRequirementId>
+                        <COURSE_OPTION_NOTES>Linguistics</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6801</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students who choose this discipline will complete</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6802</programRequirementsSetsId>
+                              <COURSES_ID>3129</COURSES_ID>
+                              <COURSE>221 LING</COURSE>
+                              <COURSE_TITLE>Introduction to Phonetics and Phonology</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6803</programRequirementsSetsId>
+                              <COURSES_ID>3130</COURSES_ID>
+                              <COURSE>222 LING</COURSE>
+                              <COURSE_TITLE>Introduction to Syntax</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1922</programRequirementId>
+                        <COURSE_OPTION_NOTES>Philosophy</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6804</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students who choose this discipline will complete</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6805</programRequirementsSetsId>
+                              <COURSES_ID>3562</COURSES_ID>
+                              <COURSE>201 PHIL</COURSE>
+                              <COURSE_TITLE>Epistemology</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6806</programRequirementsSetsId>
+                              <COURSES_ID>3564</COURSES_ID>
+                              <COURSE>210 PHIL</COURSE>
+                              <COURSE_TITLE>Natural Deductive Logic</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1923</programRequirementId>
+                        <COURSE_OPTION_NOTES>Psychology</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6807</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students who choose this discipline will complete</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6808</programRequirementsSetsId>
+                              <COURSES_ID>3851</COURSES_ID>
+                              <COURSE>201W PSYC</COURSE>
+                              <COURSE_TITLE>Introduction to Research Methods in Psychology</COURSE_TITLE>
+                              <UNITS>4</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6809</programRequirementsSetsId>
+                              <COURSES_ID>3854</COURSES_ID>
+                              <COURSE>221 PSYC</COURSE>
+                              <COURSE_TITLE>Introduction to Cognitive Psychology</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6810</programRequirementsSetsId>
+                              <COURSES_ID>3860</COURSES_ID>
+                              <COURSE>280 PSYC</COURSE>
+                              <COURSE_TITLE>Introduction to Biological Psychology</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1924</programRequirementId>
+                        <COURSE_OPTION_NOTES>Upper Division Requirements</COURSE_OPTION_NOTES>
+                        <COURSE_OPTION_FOOTER>and the requirements listed below for the three disciplines that were previously selected in the intermediate level, all with an upper division cognitive science grade point average of 2.0 or higher in each of these three disciplines.</COURSE_OPTION_FOOTER>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6811</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students complete a minimum of 27 units, including both of</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6812</programRequirementsSetsId>
+                              <COURSES_ID>902</COURSES_ID>
+                              <COURSE>300 COGS</COURSE>
+                              <COURSE_TITLE>Selected Topics in Cognitive Science</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6813</programRequirementsSetsId>
+                              <COURSES_ID>903</COURSES_ID>
+                              <COURSE>310 COGS</COURSE>
+                              <COURSE_TITLE>Consciousness</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1925</programRequirementId>
+                        <COURSE_OPTION_NOTES>Computing Science</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6814</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students who chose this discipline in the lower division will also complete a total of nine units, including one of</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6815</programRequirementsSetsId>
+                              <COURSES_ID>775</COURSES_ID>
+                              <COURSE>379 CMPT</COURSE>
+                              <COURSE_TITLE>Principles of Compiler Design</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6816</programRequirementsSetsId>
+                              <COURSES_ID>776</COURSES_ID>
+                              <COURSE>383 CMPT</COURSE>
+                              <COURSE_TITLE>Comparative Programming Languages</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6817</programRequirementsSetsId>
+                              <COURSES_ID>777</COURSES_ID>
+                              <COURSE>384 CMPT</COURSE>
+                              <COURSE_TITLE>Symbolic Computing</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6818</programRequirementsSetsId>
+                              <COURSES_ID>3217</COURSES_ID>
+                              <COURSE>300 MACM</COURSE>
+                              <COURSE_TITLE>Introduction to Formal Languages and Automata with Applications</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6819</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>and two of</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6820</programRequirementsSetsId>
+                              <COURSES_ID>759</COURSES_ID>
+                              <COURSE>310 CMPT</COURSE>
+                              <COURSE_TITLE>Artificial Intelligence Survey</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6821</programRequirementsSetsId>
+                              <COURSES_ID>785</COURSES_ID>
+                              <COURSE>411 CMPT</COURSE>
+                              <COURSE_TITLE>Knowledge Representation</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6822</programRequirementsSetsId>
+                              <COURSES_ID>786</COURSES_ID>
+                              <COURSE>412 CMPT</COURSE>
+                              <COURSE_TITLE>Computational Vision</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6823</programRequirementsSetsId>
+                              <COURSES_ID>787</COURSES_ID>
+                              <COURSE>413 CMPT</COURSE>
+                              <COURSE_TITLE>Computational Linguistics</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6824</programRequirementsSetsId>
+                              <COURSES_ID>791</COURSES_ID>
+                              <COURSE>417 CMPT</COURSE>
+                              <COURSE_TITLE>Intelligent Systems</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6825</programRequirementsSetsId>
+                              <COURSES_ID>792</COURSES_ID>
+                              <COURSE>418 CMPT</COURSE>
+                              <COURSE_TITLE>Computational Cognitive Architecture</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6826</programRequirementsSetsId>
+                              <COURSES_ID>793</COURSES_ID>
+                              <COURSE>419 CMPT</COURSE>
+                              <COURSE_TITLE>Special Topics in Artificial Intelligence</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1926</programRequirementId>
+                        <COURSE_OPTION_NOTES>Linguistics</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6827</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students who chose this discipline in the lower division will also complete a total of nine units, including, three of</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6828</programRequirementsSetsId>
+                              <COURSES_ID>3138</COURSES_ID>
+                              <COURSE>321 LING</COURSE>
+                              <COURSE_TITLE>Phonology</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6829</programRequirementsSetsId>
+                              <COURSES_ID>3139</COURSES_ID>
+                              <COURSE>322 LING</COURSE>
+                              <COURSE_TITLE>Syntax</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6830</programRequirementsSetsId>
+                              <COURSES_ID>3140</COURSES_ID>
+                              <COURSE>323 LING</COURSE>
+                              <COURSE_TITLE>Morphology</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6831</programRequirementsSetsId>
+                              <COURSES_ID>3141</COURSES_ID>
+                              <COURSE>324 LING</COURSE>
+                              <COURSE_TITLE>Semantics</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6832</programRequirementsSetsId>
+                              <COURSES_ID>3142</COURSES_ID>
+                              <COURSE>330 LING</COURSE>
+                              <COURSE_TITLE>Phonetics</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6833</programRequirementsSetsId>
+                              <COURSES_ID>3146</COURSES_ID>
+                              <COURSE>350 LING</COURSE>
+                              <COURSE_TITLE>First Language Acquisition</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6834</programRequirementsSetsId>
+                              <COURSES_ID>3152</COURSES_ID>
+                              <COURSE>400 LING</COURSE>
+                              <COURSE_TITLE>Formal Linguistics</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6835</programRequirementsSetsId>
+                              <COURSES_ID>3170</COURSES_ID>
+                              <COURSE>480 LING</COURSE>
+                              <COURSE_TITLE>Topics in Linguistics I</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER>*</EXCEPTION_IDENTIFIER>
+                              <EXCEPTIONS>relevant topics include discourse analysis, functional linguistics, language and the brain, computational linguistics</EXCEPTIONS>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6836</programRequirementsSetsId>
+                              <COURSES_ID>3171</COURSES_ID>
+                              <COURSE>481 LING</COURSE>
+                              <COURSE_TITLE>Topics in Linguistics II</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER>*</EXCEPTION_IDENTIFIER>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1927</programRequirementId>
+                        <COURSE_OPTION_NOTES>Philosophy</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6837</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students who chose this discipline in the lower division will also complete a total of nine units, including three of</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6838</programRequirementsSetsId>
+                              <COURSES_ID>3573</COURSES_ID>
+                              <COURSE>302 PHIL</COURSE>
+                              <COURSE_TITLE>Topics in Epistemology and Metaphysics</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6839</programRequirementsSetsId>
+                              <COURSES_ID>3574</COURSES_ID>
+                              <COURSE>314 PHIL</COURSE>
+                              <COURSE_TITLE>Topics in Logic I</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6840</programRequirementsSetsId>
+                              <COURSES_ID>3583</COURSES_ID>
+                              <COURSE>341 PHIL</COURSE>
+                              <COURSE_TITLE>Philosophy of Science</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6841</programRequirementsSetsId>
+                              <COURSES_ID>3584</COURSES_ID>
+                              <COURSE>343 PHIL</COURSE>
+                              <COURSE_TITLE>Philosophy of Mind</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6842</programRequirementsSetsId>
+                              <COURSES_ID>3585</COURSES_ID>
+                              <COURSE>344 PHIL</COURSE>
+                              <COURSE_TITLE>Philosophy of Language</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6843</programRequirementsSetsId>
+                              <COURSES_ID>3592</COURSES_ID>
+                              <COURSE>444W PHIL</COURSE>
+                              <COURSE_TITLE>Philosophy of Language II</COURSE_TITLE>
+                              <UNITS>4</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1928</programRequirementId>
+                        <COURSE_OPTION_NOTES>Psychology</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>6844</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Students who chose this discipline in the lower division will also complete a total of nine units, including, three of</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6845</programRequirementsSetsId>
+                              <COURSES_ID>3863</COURSES_ID>
+                              <COURSE>303 PSYC</COURSE>
+                              <COURSE_TITLE>Perception</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6846</programRequirementsSetsId>
+                              <COURSES_ID>4893</COURSES_ID>
+                              <COURSE>325 PSYC</COURSE>
+                              <COURSE_TITLE>Memory</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6847</programRequirementsSetsId>
+                              <COURSES_ID>3866</COURSES_ID>
+                              <COURSE>330 PSYC</COURSE>
+                              <COURSE_TITLE>Attention</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6848</programRequirementsSetsId>
+                              <COURSES_ID>3867</COURSES_ID>
+                              <COURSE>335 PSYC</COURSE>
+                              <COURSE_TITLE>Sensation</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6849</programRequirementsSetsId>
+                              <COURSES_ID>3871</COURSES_ID>
+                              <COURSE>354 PSYC</COURSE>
+                              <COURSE_TITLE>Development of Children's Thinking</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6850</programRequirementsSetsId>
+                              <COURSES_ID>3884</COURSES_ID>
+                              <COURSE>383 PSYC</COURSE>
+                              <COURSE_TITLE>Psychopharmacology</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6851</programRequirementsSetsId>
+                              <COURSES_ID>3883</COURSES_ID>
+                              <COURSE>382 PSYC</COURSE>
+                              <COURSE_TITLE>Cognitive Neuroscience</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>6852</programRequirementsSetsId>
+                              <COURSES_ID>4896</COURSES_ID>
+                              <COURSE>385 PSYC</COURSE>
+                              <COURSE_TITLE>Evolution and Psychology</COURSE_TITLE>
+                              <UNITS>3</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>7399</programRequirementId>
+                        <COURSE_OPTION_NOTES>Faculty of Arts and Social Sciences Program Requirements</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>30031</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>For all bachelor of arts (BA) programs (except the honours program), students complete 120 units, which includes</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>30032</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>at least 60 units that must be completed at Simon Fraser University</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>30033</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>at least 45 upper division units, of which at least 30 upper division units must be completed at Simon Fraser University</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>30034</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>at least 65 units (including 21 upper division units) in Faculty of Arts and Social Sciences courses</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>30035</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>satisfaction of the writing, quantitative, and breadth requirements</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>30036</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>an overall cumulative grade point average (CGPA) and upper division CGPA of at least 2.0, and a program (major, joint major, extended minor, minor) CGPA and upper division CGPA of at least 2.0</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1929</programRequirementId>
+                        <COURSE_OPTION_NOTES></COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId/>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>7400</programRequirementId>
+                        <COURSE_OPTION_NOTES>Grade Requirements</COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId>30037</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>In addition to the BA requirement that a student's cumulative grade point average (CGPA) and upper division grade point average (UD GPA) be 2.0 or highter for graduation, cognitive science grade point averages (cognitive science GPA and cognitive science upper division GPA) are calculated based on all the courses selected to satisfy the graduation requirements for a major, minor or honours.</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                           <programRequirement>
+                              <programRequirementsSetsId>30038</programRequirementsSetsId>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS>Cognitive science program GPAs (COGS CGPA and COGS UD GPA) of 2.0 or higher are required for program continuation.</NON_COURSE_REQUIREMENTS>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1930</programRequirementId>
+                        <COURSE_OPTION_NOTES></COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId/>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1931</programRequirementId>
+                        <COURSE_OPTION_NOTES></COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId/>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                     <programRequirement>
+                        <programRequirementId>1932</programRequirementId>
+                        <COURSE_OPTION_NOTES></COURSE_OPTION_NOTES>
+                        <programRequirementsSet>
+                           <programRequirement>
+                              <programRequirementsSetsId/>
+                              <COURSES_ID/>
+                              <COURSE></COURSE>
+                              <COURSE_TITLE/>
+                              <UNITS>0</UNITS>
+                              <CONDITION_TITLE/>
+                              <NON_COURSE_REQUIREMENTS/>
+                              <EXCEPTION_IDENTIFIER/>
+                              <EXCEPTIONS/>
+                           </programRequirement>
+                        </programRequirementsSet>
+                     </programRequirement>
+                  </programRequirements>
+               </program>
+            </programs>
+         </get_af_programsReturn>
+      </ns1:get_af_programsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

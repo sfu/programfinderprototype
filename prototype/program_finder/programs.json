@@ -1,0 +1,354 @@
+{
+	"Arts, Culture and the Humanities" : [
+
+		{
+			"Cultural Studies" : [
+				"African Studies",
+				"Archaeology",
+				"Art and Culture Studies",
+				"Asia-Canada",
+				"Cultural Resource Management",
+				"Ethnic and Intercultural Relations",
+				"First Nations Studies",
+				"Hellenic Studies",
+				"History",
+				"Latin American Studies",
+				"Liberal Arts",
+				"Medieval and Renaissance Studies",
+				"Religious Studies"
+			]
+		},
+
+		{
+			"Design and Communication": [
+				"Communication",
+				"Digital Media",
+				"Interactive Arts and Technology",
+				"Publishing"
+			]
+		},
+
+		{
+			"Fine and Performing Arts" : [
+				"Cinema Studies",
+				"Contemporary Arts",
+				"Dance",
+				"Film",
+				"Fine and Performing Arts",
+				"Music",
+				"Theatre",
+				"Visual Art"
+			]
+		},
+
+		{
+			"Liberal Arts" : [
+					"Art and Culture Studies",
+					"Explorations in the Arts and Social Sciences",
+					"General Studies",
+					"Liberal Studies",
+					"Hellenic Studies",
+					"History",
+					"Humanities",
+					"Liberal Arts",
+					"Medieval and Renaissance Studies",
+					"Philosophy",
+					"Religious Studies"
+			]
+		},
+
+		{
+			"International": [
+				"African Studies",
+				"Asia-Canada",
+				"English as a Second Language",
+				"Ethnic and Intercultural Relations",
+				"International Studies",
+				"International Studies and Political Science",
+				"Latin American Studies",
+				"World Literature"
+			]
+		},
+
+		{
+			"Writing and Literature": [
+				"Dialogue",
+				"English",
+				"English as a Second Language",
+				"Linguistics",
+				"Literacy Instruction",
+				"Publishing",
+				"World Literature",
+				"Writing"
+			]
+		}
+
+	],
+
+
+	"Business & Economics": [
+		{ "Accounting": [ "Beedie School of Business" ] },
+		{ "Business Administration": [ "Beedie School of Business" ] },
+		{ "Corporate Social Responsibility": [ "Beedie School of Business" ] },
+		{ "Economics": [ "Economics" ] },
+		{ "Finance": [ "Beedie School of Business" ] },
+		{ "General Business": [ "BusOne" ] },
+		{ "International": [ "Beedie School of Business" ] },
+		{ "Management": [ "Beedie School of Business" ] },
+		{ "MBA": [ "Beedie School of Business" ] },
+		{ "Technology": [ "Beedie School of Business" ] }
+	],
+
+	"Communication, Technology and Design": [
+
+		{
+			"Communication": [
+				"Communication",
+				"Publishing"
+			]
+		},
+
+		{
+			"Design": [
+				"Digital Media",
+        		"Interactive Arts and Technology"
+			]
+		},
+
+		{
+			"Technology": [
+				"Bioinformatics",
+        		"Computer Electronics and Design",
+        		"Computing Science",
+        		"Digital Media",
+        		"Management and Systems Science",
+        		"Mechatronic Systems Engineering",
+        		"Software Systems",
+        		"Interactive Arts and Technology"
+			]
+		}
+	],
+
+
+	"Education": [
+		"Counselling and Human Development",
+		"Curriculum and Instruction",
+		"Early Learning",
+		"Education, General",
+		"Educational Psychology",
+		"Elementary Generalist",
+		"Environmental Education",
+		"French Education",
+		"International and Global Education",
+		"International Experiential Learning",
+		"Learning and Developmental Disabilities",
+		"Literacy Instruction",
+		"Physical Education",
+		"Professional Development Program (PDP)",
+		"Secondary Mathematics Education",
+		"Secondary Teaching"
+	],
+
+	"Environmental Studies": [
+		"Archaeology",
+		"Cultural Resource Management",
+		"Environment, General",
+		"Environmental Chemistry",
+		"Environmental Education",
+		"Environmental Science",
+		"Environmental Toxicology",
+		"Fisheries Management",
+		"Forestry Geoscience",
+		"Pest Management",
+		"Resource Management",
+		"Spatial Information Systems",
+		"Sustainable Community Development"
+	],
+
+
+	"Health": [
+
+				"Global Health",
+				"Health and Fitness Studies",
+				"Health Sciences",
+				"Kinesiology",
+				"Nutrition",
+				"Public Health"
+	],
+
+	"Languages": [
+		"Chinese",
+		"French",
+		"French Education",
+		"French Language Cohort in Public Administration and Community Services",
+		"German",
+		"Greek",
+		"Italian",
+		"Japanese",
+		"Persian",
+		"Spanish"
+	],
+
+
+	"Science": [
+
+
+		{
+			"Biology": [
+				"Behavioural Neuroscience",
+				"Bioinformatics",
+				"Biological Physics",
+				"Biological Sciences",
+				"Biology",
+				"Biomedical Physiology",
+				"Molecular Biology and Biochemistry",
+				"Neuroscience"
+			]
+		},
+
+		{
+			"Chemistry": [
+				"Chemical Physics",
+				"Chemistry",
+				"Molecular Biology and Biochemistry"
+			]
+		},
+
+
+		{
+			"Computing": [
+				"Bioinformatics",
+				"Computer Electronics and Design",
+				"Computing Science",
+				"Management and Systems Science",
+				"Mechatronic Systems Engineering",
+				"Software Systems"
+			]
+		},
+
+
+		{
+			"Engineering": [
+				"Engineering Science",
+				"Mechatronic Systems Engineering"
+			]
+		},
+
+		{
+			"General Sciences": [
+				"Science Year One",
+				"Science, General"
+			]
+		},
+
+
+		{
+			"Geographic Sciences": [
+				"Earth Sciences",
+				"Geography",
+				"Geographic Information Science"
+			]
+		},
+
+		{
+			"Life Sciences": [
+				"Biological Sciences",
+				"Biology",
+				"Biomedical Physiology",
+				"Life Sciences Year Two",
+				"Physiology and Kinesiology"
+			]
+		},
+
+		{
+			"Math and Statistics": [
+					"Actuarial Science",
+					"Mathematical Physics",
+					"Mathematics",
+					"Operations Research",
+					"Secondary Mathematics Education",
+					"Statistics"
+			]
+		},
+
+
+		{
+			"Physics": [
+				"Biological Physics",
+				"Physics",
+				"Nuclear Science"
+			]
+		}
+
+	],
+
+
+
+	"Social Sciences": [
+
+		{
+			"General and Liberal Arts": [
+				"Explorations in the Arts and Social Sciences",
+				"General Studies",
+				"Liberal Studies"
+			]
+		},
+
+		{
+			"History": [
+				"Anthropology",
+				"History",
+				"Labour Studies",
+				"Political Science",
+				"Sociology"
+			]
+		},
+
+		{
+			"Politics": [
+				"Dialogue",
+				"Ethnic and Intercultural Relations",
+				"Geography",
+				"International Studies",
+				"International Studies and Political Science",
+				"Labour Studies",
+				"Modelling of Complex Social Systems",
+				"Political Science",
+				"Social Justice",
+				"Social Policy Issues",
+				"Sociology"
+			]
+		},
+
+		{
+			"Psychology": [
+				"Behavioural Neuroscience",
+				"Educational Psychology",
+				"Psychology"
+			]
+		},
+
+		{
+			"Society": [
+				"Criminology",
+				"Ethnic and Intercultural Relations",
+				"Family Studies",
+				"French Language Cohort in Public Administration and Community Services",
+				"Gender, Sexuality and Women's Studies",
+				"Gerontology",
+				"Legal Studies",
+				"Modelling of Complex Social Systems",
+				"Police Studies",
+				"Public Policy",
+				"Sociology",
+				"Sustainable Community Development",
+				"Urban Studies"
+			]
+		}
+
+
+	],
+
+	"Continuing Studies": []
+
+}

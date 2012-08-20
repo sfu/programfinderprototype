@@ -1,0 +1,169 @@
+/* Typography */
+
+/* variables */
+
+
+.body-font (@size: 14px, @leading: 21px) {
+    font-size: @size;
+    line-height: @leading;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.brand-font-bold (@size: 14px, @leading: 21px) {
+    font-size: @size;
+    line-height: @leading;
+    font-family: "DINWebMedium", sans-serif;
+}
+
+.brand-font (@size: 14px, @leading: 16px) {
+    font-size: @size;
+    line-height: @leading;
+    font-family: "DINWeb", sans-serif;
+}
+
+/* end variables */
+
+@font-face {
+	font-family: 'DINWebLight';
+    src: url('../fonts/DINWeb-Light.eot');
+    src: url('../fonts/DINWeb-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'DINWeb';
+    src: url('../fonts/DINWeb.eot');
+    src: url('../fonts/DINWeb.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'DINWebBold';
+    src: url('../fonts/DINWeb-Bold.eot');
+    src: url('../fonts/DINWeb-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'DINWebMedium';
+    src: url('../fonts/DINWeb-Medium.eot');
+    src: url('../fonts/DINWeb-Medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'DINWebBlack';
+    src: url('../fonts/DINWeb-Black.eot');
+    src: url('../fonts/DINWeb-Black.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'DINWebLightItalic';
+    src: url('../fonts/DINWeb-LightIta.eot');
+    src: url('../fonts/DINWeb-LightIta.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'DINWebItalic';
+    src: url('../fonts/DINWeb-Ita.eot');
+    src: url('../fonts/DINWeb-Ita.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'DINWebMediumItalic';
+    src: url('../fonts/DINWeb-MediumIta.eot');
+    src: url('../fonts/DINWeb-MediumIta.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'DINWebBoldItalic';
+    src: url('../fonts/DINWeb-BoldIta.eot');
+    src: url('../fonts/DINWeb-BoldIta.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+	font-family: 'DINWebBlackItalic';
+    src: url('../fonts/DINWeb-BlackIta.eot');
+    src: url('../fonts/DINWeb-BlackIta.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    .body-font;
+}
+
+h1 {
+	font: 32px/40px "DINWebBold", sans-serif;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 1%;
+    margin-bottom: 1%;
+}
+
+h1 b, h1 strong {
+	font-family: 'DINWebBlack';
+}
+
+h1 i, h1 em {
+	font-family: 'DINWebBoldItalic';
+}
+
+h1 span {
+    display: block;
+    .brand-font (.7em);
+}
+
+h2 {
+	font: 24px/28px "DINWebMedium", sans-serif;
+	margin: 3% 0 0 0;
+}
+
+h2 b, h2 strong {
+	font-family: 'DINWebBold';
+}
+
+h2 i, h2 em {
+	font-family: 'DINWebBoldItalic';
+}
+
+
+h3 {
+	font: 16px/18px "DINWebMedium", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+    margin-top: 3%;
+}
+
+h3 b, h3 strong {
+	font-family: 'DINWebBold';
+}
+
+h3 i, h3 em {
+	font-family: 'DINWebBoldItalic';
+}
+
+
+h4, h5 {
+	font: 12px/14px "DINWebLight", sans-serif;
+	margin: 0 0 2% 0;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+}
+
+h5 {
+    color: #555;
+    margin-top: 1%;
+    margin-bottom: .5%;
+}
+
+/* program finder */
+
+.sf-menu {
+  .brand-font;
+}
+
+/* program toggles */

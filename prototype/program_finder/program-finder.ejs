@@ -1,0 +1,110 @@
+<% var itemCounter = 0; %>
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Academic Calendar – Simon Fraser University</title>
+        <link rel="stylesheet" type="text/css" href="../css/typography.css"/>
+        <link rel="stylesheet" type="text/css" href="../css/layout.css"/>
+
+        <link rel="stylesheet" type="text/css" href="../css/superfish.css">
+
+    </head>
+    <body>
+
+        <h1 class="header">Academic Calendar
+            <span>Spring 2013</span></h1>
+
+
+
+        <h2>Find a program</h2>
+
+        <div class="program-finder">
+
+            <ul class="sf-menu">
+
+                <li class="current">
+                    <a href="#">Select an area of interest</a>
+                    <ul>
+                    <% for (var topLevelProgram in programs) { %>
+                        <li>
+                            <a href="#"><%= topLevelProgram %></a>
+                            <ul>
+                                <% programs[topLevelProgram].forEach(function(subjectArea) { %>
+                                        <% if (Object.prototype.toString.call(subjectArea) !== '[object Object]') { %>
+                                            <li>
+                                                <a href="#"><%= subjectArea %></a>
+                                            </li>
+                                        <% } else { %>
+                                            <% for (var subjectAreaName in subjectArea) { %>
+                                                <li>
+                                                    <a href="#"><%= subjectAreaName %></a>
+                                                    <ul>
+                                                        <% subjectArea[subjectAreaName].forEach(function(areaOfStudy) { %>
+                                                            <li>
+                                                                <a href="#"><%= areaOfStudy %></a>
+                                                            </li>
+                                                        <% }); %>
+                                                    </ul>
+                                                </li>
+                                            <% } %>
+                                        <% } %>
+                                    <% }) %>
+                            </ul>
+                        </li>
+                    <% } %>
+                    </li>
+                </ul>
+
+        </div>
+
+        <div class="program-toggle">
+
+
+            <h2>Browse by area of interest</h2>
+
+
+
+
+                    <% for (var topLevelProgram in programs) { %>
+                        <div class="collection">
+                            <h2><%= topLevelProgram %></h2>
+                            <% programs[topLevelProgram].forEach(function(subjectArea) { %>
+                                <% if (Object.prototype.toString.call(subjectArea) !== '[object Object]') { %>
+                                    <ul>
+                                        <li><a href="#"><%= subjectArea %></a></li>
+                                    </ul>
+                                <% } else { %>
+                                    <% for (var subjectAreaName in subjectArea) { %>
+                                        <div class="toggle item<%= ++itemCounter %>"><a href="#"><%= subjectAreaName %></a></div>
+                                        <ul class="toggleContent item<%= itemCounter %>">
+                                            <% subjectArea[subjectAreaName].forEach(function(areaOfStudy) { %>
+                                                <li><a href="#"><%= areaOfStudy %></a></li>
+                                            <% }) %>
+                                        </ul>
+                                    <% } %>
+                                <% } %>
+                            <% }) %>
+                        </div>
+                    <% } %>
+
+        </div>
+
+    </body>
+
+    <script type="text/javascript" src="../js/jquery-min.js"></script>
+    <script type="text/javascript" src="../js/hoverIntent.js"></script>
+    <script type="text/javascript" src="../js/superfish.js"></script>
+    <script src="../js/toggle-content.js"></script>
+
+    <script type="text/javascript">
+
+    // initialise plugins
+    jQuery(function(){
+        jQuery('ul.sf-menu').superfish();
+    });
+
+    </script>
+
+</html>

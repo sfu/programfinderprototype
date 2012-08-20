@@ -1,0 +1,273 @@
+PROGRAM FINDER
+
+
+
+ARTS, CULTURE AND THE HUMANITIES
+
+	fine and performing arts
+								Cinema Studies
+								Contemporary Arts
+								Dance
+								Film
+								Fine and Performing Arts
+								Music
+								Theatre
+								Visual Art
+
+	liberal arts
+								Art and Culture Studies
+								Explorations in the Arts and Social Sciences
+								General Studies
+								Liberal Studies
+								Hellenic Studies
+								History
+								Humanities
+								Liberal Arts
+								Medieval and Renaissance Studies
+								Philosophy
+								Religious Studies
+
+	cultural studies
+								African Studies
+								Archaeology
+								Art and Culture Studies
+								Asia-Canada
+								Cultural Resource Management
+								Ethnic and Intercultural Relations
+								First Nations Studies
+								Hellenic Studies
+								History
+								Latin American Studies
+								Liberal Arts
+								Medieval and Renaissance Studies
+								Religious Studies
+
+	writing and literature
+								Dialogue
+								English
+								English as a Second Language
+								Linguistics
+								Literacy Instruction
+								Publishing
+								World Literature
+								Writing
+
+	international
+								African Studies
+								Asia-Canada
+								English as a Second Language
+								Ethnic and Intercultural Relations
+								International Studies
+								International Studies and Political Science
+								Latin American Studies
+								World Literature
+
+	design and communication
+								Communication
+								Digital Media
+								Interactive Arts and Technology
+								Publishing
+
+
+
+SOCIAL SCIENCES
+
+	general and liberal arts
+								Explorations in the Arts and Social Sciences
+								General Studies
+								Liberal Studies
+
+	politics and society
+								Anthropology
+								Criminology
+								Dialogue
+								Ethnic and Intercultural Relations
+								Family Studies
+								French Language Cohort in Public Administration and Community Services
+								Gender, Sexuality and Women's Studies
+								Geography
+								Gerontology
+								History
+								International Studies
+								International Studies and Political Science
+								Labour Studies
+								Legal Studies
+								Modelling of Complex Social Systems
+								Police Studies
+								Political Science
+								Public Policy
+								Social Justice
+								Social Policy Issues
+								Sociology
+								Sustainable Community Development
+								Urban Studies
+
+	psychology
+								Behavioural Neuroscience
+								Educational Psychology
+								Psychology
+
+
+
+SCIENCE
+
+
+	biology
+								Behavioural Neuroscience
+								Bioinformatics
+								Biological Physics
+								Biological Sciences
+								Biology
+								Biomedical Physiology
+								Molecular Biology and Biochemistry
+								Neuroscience
+
+	chemistry
+								Chemical Physics
+								Chemistry
+								Molecular Biology and Biochemistry
+
+	computing
+								Bioinformatics
+								Computer Electronics and Design
+								Computing Science
+								Management and Systems Science
+								Mechatronic Systems Engineering
+								Software Systems
+
+	engineering
+								Engineering Science
+								Mechatronic Systems Engineering
+
+
+	general sciences
+								Science Year One
+								Science, General
+
+	geographic sciences
+								Earth Sciences
+								Geography
+								Geographic Information Science
+
+	life sciences
+								Biological Sciences
+								Biology
+								Biomedical Physiology
+								Life Sciences Year Two
+								Molecular Biology and Biochemistry
+								Physiology and Kinesiology
+
+	math and statistics
+								Actuarial Science
+								Mathematical Physics
+								Mathematics
+								Operations Research
+								Secondary Mathematics Education
+								Statistics
+
+	physics
+								Biological Physics
+								Physics
+								Nuclear Science
+
+
+
+HEALTH
+								Global Health
+								Health and Fitness Studies
+								Health Sciences
+								Kinesiology
+								Nutrition
+								Public Health
+
+
+BUSINESS & ECONOMICS
+
+	accounting
+								Beedie School of Business
+
+	business administration
+								Beedie School of Business
+
+	corporate social responsibility
+								Beedie School of Business
+
+	economics
+								Economics
+
+	finance
+								Beedie School of Business
+
+	general business
+								BusOne
+
+	international
+								Beedie School of Business
+
+	management
+								Beedie School of Business
+
+	MBA
+								Beedie School of Business
+
+	technology
+								Beedie School of Business
+
+
+
+LANGUAGES
+								Chinese
+								French
+								French Education
+								French Language Cohort in Public Administration and Community Services
+								German
+								Greek
+								Italian
+								Japanese
+								Persian
+								Spanish
+
+
+
+ENVIRONMENTAL STUDIES
+								Archaeology
+								Cultural Resource Management
+								Environment
+								Environmental Chemistry
+								Environmental Education
+								Environmental Science
+								Environmental Toxicology
+								Fisheries Management
+								Forestry Geoscience
+								Pest Management
+								Resource Management
+								Spatial Information Systems
+								Sustainable Community Development
+
+COMMUNICATION AND TECHNOLOGY
+								Communication
+								Digital Media
+								Interactive Arts and Technology
+								Publishing
+
+
+EDUCATION
+								Counselling and Human Development
+								Curriculum and Instruction
+								Early Learning
+								Education
+								Educational Psychology
+								Elementary Generalist
+								Environmental Education
+								French Education
+								International and Global Education
+								International Experiential Learning
+								Learning and Developmental Disabilities
+								Literacy Instruction
+								Physical Education
+								Secondary Mathematics Education
+								Secondary Teaching
+
+
+
+CONTINUING STUDIES
