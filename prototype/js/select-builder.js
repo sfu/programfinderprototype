@@ -5,7 +5,7 @@ $('#selectLevel1').change(function(ev) {
     ,   val = programs[$(this).val()]
     ,   html = ['<option value="">-</option>'];
     if (val) {
-        $('#selectLevel3').html(html.join('')).attr('disabled', true);
+        $('#selectLevel3').html(html.join('')).hide();//attr('disabled', true);
         $.each(val, function(i, item) {
             if (Object.prototype.toString.call(item) !== '[object Object]') {
                 html.push('<option value="' + item + '">' + item + '</option>');
@@ -16,7 +16,7 @@ $('#selectLevel1').change(function(ev) {
         });
         $('#selectLevel2').html(html.join('')).attr('disabled', false);
     } else {
-        $('#selectLevel2, #selectLevel3').html(html.join('')).attr('disabled', true);
+        $('#selectLevel2, #selectLevel3').html(html.join('')).hide();//attr('disabled', true);
     }
 
 });
@@ -33,8 +33,8 @@ $('#selectLevel2').change(function(ev) {
         for (var x = 0; x < data.length; x++) {
             html.push('<option value="' + data[x] + '">' + data[x] + '</option>');
         }
-        $('#selectLevel3').html(html.join('')).attr('disabled', false);
+        $('#selectLevel3').html(html.join('')).show();//attr('disabled', false);
     } else {
-        $('#selectLevel3').attr('disabled', true).html(html.join(''));
+        $('#selectLevel3').html(html.join('')).hide();//attr('disabled', true);
     }
 });
