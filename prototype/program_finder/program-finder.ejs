@@ -1,4 +1,4 @@
-<% var itemCounter = 0; %>
+<% var itemCounter = 0, programsStr = JSON.stringify(programs); %>
 
 <!doctype html>
 <html>
@@ -14,16 +14,12 @@
     <body>
 
         <h1 class="header">Academic Calendar
-            <span>Spring 2013</span></h1>
-
-
+            <span>Spring 2013</span>
+        </h1>
 
         <h2>Find a program</h2>
-
         <div class="program-finder">
-
             <ul class="sf-menu">
-
                 <li class="current">
                     <a href="#">Select an area of interest</a>
                     <ul>
@@ -56,49 +52,61 @@
                     <% } %>
                     </li>
                 </ul>
-
         </div>
 
+        <h2>Select a program</h2>
+        <div class="program-select">
+            <select name="selectLevel1" id="selectLevel1">
+                <option value="">Select an area of interest</option>
+                <% for (var topLevelProgram in programs) { %>
+                    <option value="<%= topLevelProgram %>"><%= topLevelProgram %></option>
+                <% } %>
+            </select>
+            <select disabled name="selectLevel2" id="selectLevel2">
+                <option value="">-</option>
+            </select>
+            <select disabled name="selectLevel3" id="selectLevel3">
+                <option value="">-</option>
+            </select>
+        </div>
+
+
         <div class="program-toggle">
-
-
             <h2>Browse by area of interest</h2>
-
-
-
-
-                    <% for (var topLevelProgram in programs) { %>
-                        <div class="collection">
-                            <h2><%= topLevelProgram %></h2>
-                            <% programs[topLevelProgram].forEach(function(subjectArea) { %>
-                                <% if (Object.prototype.toString.call(subjectArea) !== '[object Object]') { %>
-                                    <ul>
-                                        <li><a href="#"><%= subjectArea %></a></li>
-                                    </ul>
-                                <% } else { %>
-                                    <% for (var subjectAreaName in subjectArea) { %>
-                                        <div class="toggle item<%= ++itemCounter %>"><a href="#"><%= subjectAreaName %></a></div>
-                                        <ul class="toggleContent item<%= itemCounter %>">
-                                            <% subjectArea[subjectAreaName].forEach(function(areaOfStudy) { %>
-                                                <li><a href="#"><%= areaOfStudy %></a></li>
-                                            <% }) %>
-                                        </ul>
-                                    <% } %>
-                                <% } %>
-                            <% }) %>
-                        </div>
-                    <% } %>
-
+            <% for (var topLevelProgram in programs) { %>
+                <div class="collection">
+                    <h2><%= topLevelProgram %></h2>
+                    <% programs[topLevelProgram].forEach(function(subjectArea) { %>
+                        <% if (Object.prototype.toString.call(subjectArea) !== '[object Object]') { %>
+                            <ul>
+                                <li><a href="#"><%= subjectArea %></a></li>
+                            </ul>
+                        <% } else { %>
+                            <% for (var subjectAreaName in subjectArea) { %>
+                                <div class="toggle item<%= ++itemCounter %>"><a href="#"><%= subjectAreaName %></a></div>
+                                <ul class="toggleContent item<%= itemCounter %>">
+                                    <% subjectArea[subjectAreaName].forEach(function(areaOfStudy) { %>
+                                        <li><a href="#"><%= areaOfStudy %></a></li>
+                                    <% }) %>
+                                </ul>
+                            <% } %>
+                        <% } %>
+                    <% }) %>
+                </div>
+            <% } %>
         </div>
 
     </body>
 
-    <script type="text/javascript" src="../js/jquery-min.js"></script>
-    <script type="text/javascript" src="../js/hoverIntent.js"></script>
-    <script type="text/javascript" src="../js/superfish.js"></script>
-    <script src="../js/toggle-content.js"></script>
+    <script id="programsJson"type="text/json"><%- programsStr %></script>
 
-    <script type="text/javascript">
+    <script src="../js/jquery-min.js"></script>
+    <script src="../js/hoverIntent.js"></script>
+    <script src="../js/superfish.js"></script>
+    <script src="../js/toggle-content.js"></script>
+    <script src="../js/select-builder.js"></script>
+
+    <script>
 
     // initialise plugins
     jQuery(function(){
