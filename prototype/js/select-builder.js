@@ -3,7 +3,7 @@
 $('#selectLevel1').change(function(ev) {
     var programs = JSON.parse(document.getElementById('programsJson').innerHTML)
     ,   val = programs[$(this).val()]
-    ,   html = ['<option value="">-</option>'];
+    ,   html = ['<option value=""></option>'];
     if (val) {
         $('#selectLevel3').html(html.join('')).hide();//attr('disabled', true);
         $.each(val, function(i, item) {
@@ -14,7 +14,7 @@ $('#selectLevel1').change(function(ev) {
                     html.push('<option data-i="' + i + '" value="' + ii + '">' + ii + '</option>');                }
             }
         });
-        $('#selectLevel2').html(html.join('')).attr('disabled', false);
+        $('#selectLevel2').html(html.join('')).show();//attr('disabled', false);
     } else {
         $('#selectLevel2, #selectLevel3').html(html.join('')).hide();//attr('disabled', true);
     }
@@ -27,7 +27,7 @@ $('#selectLevel2').change(function(ev) {
     ,   topLevel = $('#selectLevel1').val()
     ,   idx = el.find(':selected').data('i')
     ,   val = el.val()
-    ,   html = ['<option value="">-</option>'];
+    ,   html = ['<option value=""></option>'];
     if (idx >= 0) {
         var data = programs[topLevel][idx][val];
         for (var x = 0; x < data.length; x++) {
