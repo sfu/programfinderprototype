@@ -80,11 +80,12 @@ h1 i,
 h1 em {
   font-family: 'DINWebBoldItalic';
 }
-h1 span {
+h1.header span {
   display: block;
-  font-size: 0.7em;
-  line-height: 16px;
+  font-size: 0.5em;
+  line-height: 1.6em;
   font-family: "DINWeb", sans-serif;
+  text-transform: uppercase;
 }
 h2 {
   font: 24px/28px "DINWebMedium", sans-serif;
@@ -130,4 +131,26 @@ h5 {
   line-height: 16px;
   font-family: "DINWeb", sans-serif;
 }
+#header-navigation {
+  font-size: 13px;
+  line-height: 16px;
+  font-family: "DINWeb", sans-serif;
+}
+.nav-group-header {
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "DINWebMedium", sans-serif;
+  text-transform: uppercase;
+  color: #e0d10a;
+  margin-top: 8%;
+}
 /* program toggles */
+.collection h2 {
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "DINWebMedium", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  border-bottom: 1px dotted #ddd;
+}

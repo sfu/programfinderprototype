@@ -13,50 +13,55 @@
     </head>
     <body>
 
-        <div class="navigation">
-            <div class="nav-group">
-                <ul>
-                    <li class="nav-group-header">Courses</li>
-                    <li><a href="#">Course descriptions and outlines</a></li>
-                    <li><a href="#">View all SFU courses</a></li>
-                </ul>
-            </div>
-            <div class="nav-group">
-                <ul>
-                    <li><a href="#">Faculties and research areas</a></li>
-                    <li><a href="#">Information for students</a></li>
-                    <li><a href="#">Academic Calendar archive</a></li>
-                    <li><a href="#">Search the current Calendar</a></li>
-                </ul>
-            </div>
-            <div class="nav-group">
-                <ul>
-                    <li class="nav-group-header">Class schedules</li>
-                    <li><a href="#">Classes and schedules (Student Information System)</a></li>
-                    <li><a href="#">Undergraduate schedule [PDF]</a></li>
-                    <li><a href="#">Graduate schedule [PDF]</a></li>
-                </ul>
-            </div>
-            <div class="program-search">
-                <form action="?" method="get">
-                    <input type="text" class="search" />
-                    <input type="submit" value="Submit" class="submit" />
-                </form>
-            </div>
+        <div id="header-navigation">
 
-        </div> <!-- end navigation -->
+            <div id="calendar-header">
+
+                <h1 class="header">
+                    <span>Simon Fraser University</span>
+                    Academic Calendar
+                    <span>Spring 2013</span>
+                </h1>
+
+            </div> <!-- end calendar-header -->
 
 
-        <div class="calendar-header">
 
-            <h1 class="header">Academic Calendar
-                <span>Spring 2013</span>
-            </h1>
+            <div class="navigation">
+                <div class="nav-group">
+                    <ul>
+                        <li class="nav-group-header">Courses</li>
+                        <li><a href="#">Course descriptions and outlines</a></li>
+                        <li><a href="#">View all SFU courses</a></li>
+                        <li class="nav-group-header">Class schedules</li>
+                        <li><a href="#">Classes and schedules<br /><span>(Student Information System)</span></a></li>
+                        <li><a href="#">Undergraduate schedule [PDF]</a></li>
+                        <li><a href="#">Graduate schedule [PDF]</a></li>
+                    </ul>
+                </div> <!-- end nav-group -->
+                <div class="nav-group">
+                    <ul>
+                        <li class="nav-group-header">Information & Resources</li>
+                        <li><a href="#">Faculties and research areas</a></li>
+                        <li><a href="#">Information for students</a></li>
+                        <li><a href="#">Academic Calendar archive</a></li>
+                        <li><a href="#">Search the current Calendar</a></li>
+                    </ul>
+                </div> <!-- end nav-group -->
+                <div class="program-search">
+                    <form action="?" method="get">
+                        <input type="text" class="search" />
+                        <input type="submit" value="Submit" class="submit" />
+                    </form>
+                </div> <!-- end nav-group -->
 
-        </div> <!-- end calendar-header -->
+            </div> <!-- end navigation -->
 
 
-        <div class="program-finder">
+        </div> <!-- end header-navigation -->
+
+
+    <!--    <div class="program-finder">
             <h2>Find a program</h2>
             <ul class="sf-menu">
                 <li class="current">
@@ -91,49 +96,55 @@
                     <% } %>
                     </li>
                 </ul>
-        </div>
+        </div> -->
 
-        <h2>Select a program</h2>
-        <div class="program-select">
-            <select name="selectLevel1" id="selectLevel1">
-                <option value="">Select an area of interest</option>
-                <% for (var topLevelProgram in programs) { %>
-                    <option value="<%= topLevelProgram %>"><%= topLevelProgram %></option>
-                <% } %>
-            </select>
-            <select name="selectLevel2" id="selectLevel2">
-                <option value="">Select a program</option>
-            </select>
-            <select name="selectLevel3" id="selectLevel3">
-                <option value="">Select a something</option>
-            </select>
-        </div>
+        <div id="container">
 
-
-        <div class="program-toggle">
-            <h2>Browse by area of interest</h2>
-            <% for (var topLevelProgram in programs) { %>
-                <div class="collection">
-                    <h2><%= topLevelProgram %></h2>
-                    <% programs[topLevelProgram].forEach(function(subjectArea) { %>
-                        <% if (Object.prototype.toString.call(subjectArea) !== '[object Object]') { %>
-                            <ul>
-                                <li><a href="#"><%= subjectArea %></a></li>
-                            </ul>
-                        <% } else { %>
-                            <% for (var subjectAreaName in subjectArea) { %>
-                                <div class="toggle item<%= ++itemCounter %>"><a href="#"><%= subjectAreaName %></a></div>
-                                <ul class="toggleContent item<%= itemCounter %>">
-                                    <% subjectArea[subjectAreaName].forEach(function(areaOfStudy) { %>
-                                        <li><a href="#"><%= areaOfStudy %></a></li>
-                                    <% }) %>
-                                </ul>
+            <div class="program-finder">
+                <h2>Find a program:</h2>
+                    <div class="program-select">
+                        <select name="selectLevel1" id="selectLevel1">
+                            <option value="">Select an area of interest</option>
+                            <% for (var topLevelProgram in programs) { %>
+                                <option value="<%= topLevelProgram %>"><%= topLevelProgram %></option>
                             <% } %>
-                        <% } %>
-                    <% }) %>
-                </div>
-            <% } %>
-        </div>
+                        </select>
+                        <select name="selectLevel2" id="selectLevel2">
+                            <option value="">Select a topic area</option>
+                        </select>
+                        <select name="selectLevel3" id="selectLevel3">
+                            <option value="">Select a program</option>
+                        </select>
+                    </div>
+            </div> <!-- end program-finder -->
+
+
+            <div class="program-toggle">
+                <h2>Browse by area of interest:</h2>
+                <% for (var topLevelProgram in programs) { %>
+                    <div class="collection">
+                        <h2><%= topLevelProgram %></h2>
+                        <% programs[topLevelProgram].forEach(function(subjectArea) { %>
+                            <% if (Object.prototype.toString.call(subjectArea) !== '[object Object]') { %>
+                                <ul>
+                                    <li><a href="#"><%= subjectArea %></a></li>
+                                </ul>
+                            <% } else { %>
+                                <% for (var subjectAreaName in subjectArea) { %>
+                                    <div class="toggle item<%= ++itemCounter %>"><a href="#"><%= subjectAreaName %></a></div>
+                                    <ul class="toggleContent item<%= itemCounter %>">
+                                        <% subjectArea[subjectAreaName].forEach(function(areaOfStudy) { %>
+                                            <li><a href="#"><%= areaOfStudy %></a></li>
+                                        <% }) %>
+                                    </ul>
+                                <% } %>
+                            <% } %>
+                        <% }) %>
+                    </div>
+                <% } %>
+            </div> <!-- end program-toggle -->
+
+        </div> <!-- end container -->
 
     </body>
 

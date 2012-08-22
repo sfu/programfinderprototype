@@ -1,11 +1,107 @@
+/* globals */
 body {
-  margin: 5%;
+  margin: 0 5%;
 }
 ul {
   margin: 0%;
   padding: 0%;
   padding-top: 1%;
   list-style-type: none;
+}
+a {
+  color: #A6192E;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* navigation and page headers */
+#header-navigation {
+  width: 100%;
+  float: left;
+}
+#calendar-header {
+  float: left;
+  width: 53%;
+}
+#calendar-header h1.header {
+  margin-top: 140px;
+  border-bottom: none;
+}
+.navigation {
+  float: right;
+  width: 33%;
+  background-color: #c41230;
+  padding: 0% 2% 2% 2%;
+}
+.navigation a {
+  color: #fff;
+}
+.nav-group {
+  width: 45%;
+  float: left;
+}
+.navigation div:first-child {
+  margin-left: 0%;
+}
+.nav-group li {
+  background: transparent url(../images/square.png) 0px 8px no-repeat;
+  padding: 2% 2% 0 4%;
+}
+.nav-group li.nav-group-header {
+  background-image: none;
+}
+.nav-group li.divider {
+  background-image: none;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  border-top: 3px solid #fff;
+  opacity: .5;
+}
+.program-search {
+  margin-top: 2%;
+  display: inline-block;
+}
+.program-search input.search {
+  font-size: 16px;
+  color: #999;
+  padding: 6px;
+  -moz-box-shadow: inset 2px 2px 5px #ccc;
+  box-shadow: inset 2px 2px 5px #ccc;
+  border: 1px solid #b8b8b8;
+}
+.program-search input.submit {
+  cursor: pointer;
+  margin-left: 4px;
+  height: 24px;
+  padding: 4px 4px 0 20px !important;
+  line-height: 20px;
+  background: transparent url(../images/magnifying-glass.png) no-repeat top left;
+  border: none;
+  width: 20px;
+  text-indent: -100em;
+  opacity: .5;
+}
+.program-search input.submit:hover {
+  opacity: .8;
+  border: none;
+}
+/* content */
+#container {
+  clear: left;
+  padding-top: 2%;
+}
+.program-finder {
+  margin-left: -2%;
+  padding: 2%;
+  background-color: #ddd;
+}
+.program-finder h2 {
+  display: inline;
+}
+.program-select {
+  padding: 2%;
+  background-color: #fff;
 }
 .container {
   width: 80%;
@@ -33,13 +129,6 @@ ul {
   text-transform: uppercase;
   letter-spacing: .1em;
 }
-a {
-  color: #A6192E;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
 h2.title {
   margin-bottom: 1%;
 }
@@ -60,7 +149,7 @@ h2.title {
   padding-left: 1%;
   border-left: 5px solid #eee;
 }
-/* toggles */
+/* General toggles */
 div.toggle a {
   color: #A6192E;
   cursor: pointer;
@@ -118,9 +207,8 @@ div.toggle a {
   border-top: 2px solid #eee;
   border-bottom: 6px solid #ddd;
 }
-
 /* Selects */
-
-#selectLevel2, #selectLevel3 {
+#selectLevel2,
+#selectLevel3 {
   display: none;
 }
