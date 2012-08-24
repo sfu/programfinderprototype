@@ -63,9 +63,9 @@
         </div> <!-- end header-navigation -->
 
 
-    <!--    <div class="program-finder">
+        <div class="program-finder">
             <h2>Find a program</h2>
-            <ul class="sf-menu">
+            <ul id="programfinder" class="sf-menu">
                 <li class="current">
                     <a href="#">Select an area of interest</a>
                     <ul>
@@ -98,7 +98,7 @@
                     <% } %>
                     </li>
                 </ul>
-        </div> -->
+        </div>
 
         <div id="container">
 
@@ -164,8 +164,63 @@
 
     // initialise plugins
     jQuery(function(){
-        jQuery('ul.sf-menu').superfish();
+        jQuery('ul.sf-menu').superfish({
+            onBeforeShow: function(){
+                if (this.prevObject.parent()[0].id !== 'programfinder') {
+                    // borrowed from http://blog.stannard.net.au/2010/05/22/find-the-position-of-an-element-with-javascript/
+                    var util = {
+                        // findPos() by quirksmode.org
+                        // Finds the absolute position of an element on a page
+                        findPos: function(obj) {
+                            var curleft = curtop = 0;
+                            if (obj.offsetParent) {
+                                do {
+                                    curleft += obj.offsetLeft;
+                                    curtop += obj.offsetTop;
+                                } while (obj = obj.offsetParent);
+                            }
+                            return [curleft,curtop];
+                        },
+
+                        // getPageScroll() by quirksmode.org
+                        // Finds the scroll position of a page
+                        getPageScroll: function() {
+                            var xScroll, yScroll;
+                            if (self.pageYOffset) {
+                                yScroll = self.pageYOffset;
+                                xScroll = self.pageXOffset;
+                            } else if (document.documentElement && document.documentElement.scrollTop) {
+                                yScroll = document.documentElement.scrollTop;
+                                xScroll = document.documentElement.scrollLeft;
+                            } else if (document.body) {// all other Explorers
+                                yScroll = document.body.scrollTop;
+                                xScroll = document.body.scrollLeft;
+                            }
+                            return [xScroll,yScroll]
+                        },
+
+                        // Finds the position of an element relative to the viewport.
+                        findPosRelativeToViewport: function(obj) {
+                            var objPos = this.findPos(obj)
+                            var scroll = this.getPageScroll()
+                            return [ objPos[0]-scroll[0], objPos[1]-scroll[1] ]
+                        }
+
+                    }
+                    ,   eltop = util.findPosRelativeToViewport(this.prevObject[0])[1]
+                    ,   elheight = $(this[0]).height()
+                    ,   elbottom = eltop + elheight
+                    ,   winheight = $(window).height();
+                    if (elbottom > winheight) {
+                        this[0].style.top = (0 - ((elbottom - winheight) + 15)) + 'px';
+                    }
+                }
+            }
+        });
     });
+
+
+
 
     </script>
 
