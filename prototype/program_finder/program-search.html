@@ -15,7 +15,7 @@
             return programData.title + " (" + programData.award_type + ")";
           });
           console.log(programSearchSource);
-          $("#program-query").autocomplete({source: programSearchSource});
+          $("#program-query").autocomplete({source: programSearchSource, minLength: 4, delay: 0});
         });
       });
     </script>
