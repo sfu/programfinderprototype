@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Program Finder</title>
+    <link rel="stylesheet" type="text/css" href="../css/typography.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/layout.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/superfish.css" media="screen">
+    <script src="../js/jquery-min.js"></script>
+    <script src="../js/jquery-ui.custom.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $.getJSON("all-programs.json", function(data) {
+          var programSearchSource = $.map(data, function(programData, index) {
+            return programData.title + " (" + programData.award_type + ")";
+          });
+          console.log(programSearchSource);
+          $("#program-query").autocomplete({source: programSearchSource});
+        });
+      });
+    </script>
+</head>
+<body>
+  <form>
+    <label for="program-query">Program Search</label>
+    <input id="program-query" type="text">
+  </form>
+</body>
+</html>
