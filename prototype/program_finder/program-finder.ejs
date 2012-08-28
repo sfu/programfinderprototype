@@ -7,7 +7,7 @@
         <title>Academic Calendar – Simon Fraser University</title>
         <link rel="stylesheet" type="text/css" href="../css/typography.css"/>
         <link rel="stylesheet" type="text/css" href="../css/layout.css"/>
-
+        <link rel="stylesheet" type="text/css" href="../css/search.css" media="screen">
         <link rel="stylesheet" type="text/css" href="../css/superfish.css">
 
     </head>
@@ -50,14 +50,22 @@
                         <li><a href="#">Search the current Calendar</a></li>
                     </ul>
                 </div> <!-- end nav-group -->
+
                 <div class="program-search">
-                    <form action="?" method="get">
-                        <input type="text" class="search" />
+                    <form>
+                        <!-- <label for="program-query">Program Search</label> -->
+                        <input id="program-query" type="text" class="search">
                         <input type="submit" value="Submit" class="submit" />
                     </form>
+                    <!-- <form action="?" method="get">
+                        <input type="text" class="search" />
+                        <input type="submit" value="Submit" class="submit" />
+                    </form> -->
                 </div> <!-- end nav-group -->
 
             </div> <!-- end navigation -->
+
+            <div class="query-results"></div>
 
 
         </div> <!-- end header-navigation -->
@@ -159,6 +167,7 @@
     <script src="../js/superfish.js"></script>
     <script src="../js/toggle-content.js"></script>
     <script src="../js/select-builder.js"></script>
+    <script src="../js/jquery-ui.custom.min.js"></script>
 
     <script>
 
@@ -219,9 +228,15 @@
         });
     });
 
-
-
-
+    // $.getJSON("all-programs.json", function(data) {
+    //   var programSearchSource = $.map(data, function(programData, index) {
+    //     return programData.title + " (" + programData.award_type + ")";
+    //   });
+    //   console.log(programSearchSource);
+    //   $("#program-query").autocomplete({appendTo: '.query-results', source: programSearchSource});
+    // });
     </script>
+
+
 
 </html>
